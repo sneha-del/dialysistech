@@ -13,8 +13,9 @@ const app = express();
 
 // connectDB();
 
-const CONNECTION_URL = 'mongodb+srv://vikas:vikas123@cluster0.9uhp0.mongodb.net/mern1?retryWrites=true&w=majority';
-const PORT = process.env.PORT|| 5000;
+const CONNECTION_URL =
+  "mongodb+srv://sneha:sneha123@cluster0.37o7h.mongodb.net/slotapp?retryWrites=true&w=majority";
+const PORT = process.env.PORT || 5000;
 
 // const PORT = process.env.PORT || 5000;
 
@@ -37,8 +38,11 @@ app.use("/users", require("./routes/auth"));
 // 	});
 // }
 
-mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => app.listen(PORT, () => console.log(`Server Running on Port: ${PORT}`)))
+mongoose
+  .connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() =>
+    app.listen(PORT, () => console.log(`Server Running on Port: ${PORT}`))
+  )
   .catch((error) => console.log(`${error} did not connect`));
 
 // app.listen(
