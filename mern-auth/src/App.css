@@ -21,7 +21,7 @@ a {
 	width: 52%;
 	padding: 10px;
 	margin: 10px;
-	background: #6cafa4;
+	background: #085A6C;
 	color: #fff;
 	outline: none;
 	border: none;
@@ -32,12 +32,12 @@ a {
 
 .btn:hover {
 	background: transparent;
-	border: 2px solid #6cafa4;
-	color: #6cafa4;
+	border: 2px solid #085A6C;
+	color: #085A6C;
 }
 
 :root {
-	--primary-color: #17a2b8;
+	--primary-color: #085A6C;
 	--dark-color: #343a40;
 	--light-color: #f4f4f4;
 	--danger-color: #dc3545;
@@ -140,7 +140,7 @@ a {
 }
 
 .link a {
-	color: #6cafa4;
+	color: #085A6C;
 }
 
 /* Mobile Styles */
