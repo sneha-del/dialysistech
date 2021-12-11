@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { useHistory } from "react-router";
 function NotFound() {
@@ -23,9 +24,9 @@ function NotFound() {
 
                     <p>the page you are looking for not avaible!</p>
 
-                    <a href="" className="link_404" onClick={navigateback}>
+                    <Link to="/" className="link_404" onClick={navigateback}>
                       Go to Home
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

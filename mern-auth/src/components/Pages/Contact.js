@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const Contact = () => {
     return (
         <div>
@@ -66,10 +69,10 @@ const Contact = () => {
                 <div className="appointment">
                   <div className="header text-center">
                     <h2>Make an Appointment</h2>
-                    <a href="#" className="number">
+                    <Link to="#" className="number">
                       <i className="fa fa-phone fa-fw" />
                       1-234-567-890
-                    </a>
+                    </Link>
                     <span className="or">OR</span>
                   </div>
                   {/* form of appointment */}

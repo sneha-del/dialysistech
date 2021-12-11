@@ -1,5 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router";
+import { Link } from "react-router-dom";
+
 const Homepage = () => {
   const history = useHistory();
   const navigate = () => {
@@ -104,7 +106,7 @@ const Homepage = () => {
                   <img
                     className="img-responsive center-block"
                     src="assets/img/service1.jpg"
-                    alt=""
+                    alt="s1"
                   />
                 </div>
                 <div className="service-description text-center">
@@ -114,9 +116,9 @@ const Homepage = () => {
                     Recusandae nisi nostrum sunt cum, consequuntur asperiores,
                     impedit voluptate eveniet modi quas omnis.
                   </p>
-                  <a href="#" className="rm-btn btn btn-primary">
+                  <Link to="#" className="rm-btn btn btn-primary">
                     Read More <i className="fa fa-caret-right" />
-                  </a>
+                  </ Link>
                 </div>
               </div>
               <div className="clearfix" />
@@ -127,7 +129,7 @@ const Homepage = () => {
                   <img
                     className="img-responsive center-block"
                     src="assets/img/service2.jpg"
-                    alt=""
+                    alt="s2"
                   />
                 </div>
                 <div className="service-description text-center">
@@ -137,9 +139,9 @@ const Homepage = () => {
                     Optio nulla necessitatibus adipisci consequatur explicabo
                     provident officiis fugit. Nihil dolorem officiis.
                   </p>
-                  <a href="#" className="rm-btn btn btn-primary">
+                  <Link to="#" className="rm-btn btn btn-primary">
                     Read More <i className="fa fa-caret-right" />
-                  </a>
+                  </ Link>
                 </div>
               </div>
               <div className="clearfix" />
@@ -150,7 +152,7 @@ const Homepage = () => {
                   <img
                     className="img-responsive center-block"
                     src="assets/img/service3.jpg"
-                    alt=""
+                    alt="s3"
                   />
                 </div>
                 <div className="service-description text-center">
@@ -160,9 +162,9 @@ const Homepage = () => {
                     Molestias ipsum natus, odio quae! Ratione tempora
                     accusantium explicabo tenetur, porro numquam.
                   </p>
-                  <a href="#" className="rm-btn btn btn-primary">
+                  <Link to="#" className="rm-btn btn btn-primary">
                     Read More <i className="fa fa-caret-right" />
-                  </a>
+                  </ Link>
                 </div>
               </div>
               <div className="clearfix" />
@@ -173,7 +175,7 @@ const Homepage = () => {
                   <img
                     className="img-responsive center-block"
                     src="assets/img/service4.jpg"
-                    alt=""
+                    alt="s4"
                   />
                 </div>
                 <div className="service-description text-center">
@@ -183,9 +185,9 @@ const Homepage = () => {
                     Molestias ipsum natus, odio quae! Ratione tempora
                     accusantium explicabo tenetur, porro numquam.
                   </p>
-                  <a href="#" className="rm-btn btn btn-primary">
+                  <Link to="#" className="rm-btn btn btn-primary">
                     Read More <i className="fa fa-caret-right" />
-                  </a>
+                  </ Link>
                 </div>
               </div>
               <div className="clearfix" />
@@ -196,7 +198,7 @@ const Homepage = () => {
                   <img
                     className="img-responsive center-block"
                     src="assets/img/service5.jpg"
-                    alt=""
+                    alt="s5"
                   />
                 </div>
                 <div className="service-description text-center">
@@ -206,9 +208,9 @@ const Homepage = () => {
                     Recusandae nisi nostrum sunt cum, consequuntur asperiores,
                     impedit voluptate eveniet modi quas omnis.
                   </p>
-                  <a href="#" className="rm-btn btn btn-primary">
+                  <Link to="#" className="rm-btn btn btn-primary">
                     Read More <i className="fa fa-caret-right" />
-                  </a>
+                  </ Link>
                 </div>
               </div>
               <div className="clearfix" />
@@ -219,7 +221,7 @@ const Homepage = () => {
                   <img
                     className="img-responsive center-block"
                     src="assets/img/service6.jpg"
-                    alt=""
+                    alt="s6"
                   />
                 </div>
                 <div className="service-description text-center">
@@ -229,9 +231,9 @@ const Homepage = () => {
                     Optio nulla necessitatibus adipisci consequatur explicabo
                     provident officiis fugit. Nihil dolorem officiis.
                   </p>
-                  <a href="#" className="rm-btn btn btn-primary">
+                  <Link to="#" className="rm-btn btn btn-primary">
                     Read More <i className="fa fa-caret-right" />
-                  </a>
+                  </ Link>
                 </div>
               </div>
               <div className="clearfix" />
@@ -280,7 +282,7 @@ const Homepage = () => {
                               <img
                                 className="img-circle img-responsive center-block"
                                 src="assets/img/client3.jpg"
-                                alt="Image"
+                                alt="Image1"
                               />
                             </div>
                           </div>
@@ -311,7 +313,7 @@ const Homepage = () => {
                               <img
                                 className="img-circle img-responsive center-block"
                                 src="assets/img/client1.jpg"
-                                alt="Image"
+                                alt="Image2"
                               />
                             </div>
                           </div>
@@ -342,7 +344,7 @@ const Homepage = () => {
                               <img
                                 className="img-circle img-responsive center-block"
                                 src="assets/img/client4.jpg"
-                                alt="Image"
+                                alt="Image3"
                               />
                             </div>
                           </div>
@@ -353,34 +355,34 @@ const Homepage = () => {
                       </div>
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="left carousel-control"
-                    href="#carousel-example-generic"
+                    to="#carousel-example-generic"
                     role="button"
                     data-slide="prev"
                   >
                     <i className="fa fa-angle-left fa-3x" />
                     <span className="sr-only">Previous</span>
-                  </a>
-                  <a
-                    className="right carousel-control"
-                    href="#carousel-example-generic"
+                  </ Link>
+                  <Link 
+                                      className="right carousel-control"
+                    to="#carousel-example-generic"
                     role="button"
                     data-slide="next"
                   >
                     <i className="fa fa-angle-right fa-3x" />
                     <span className="sr-only">Next</span>
-                  </a>
+                  </ Link>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="appointment">
                   <div className="header text-center">
                     <h2>Make an Appointment</h2>
-                    <a href="#" className="number">
+                    <Link to="#" className="number">
                       <i className="fa fa-phone fa-fw" />
                       1-800-123-4567
-                    </a>
+                    </ Link>
                     <span className="or">OR</span>
                   </div>
                   {/* form of appointment */}
@@ -435,7 +437,7 @@ const Homepage = () => {
                           <br />
                           <img
                             src="http://inspirythemesdemo.com/healthpress/wp-content/themes/healthpress-theme/captcha/captcha.php"
-                            alt=""
+                            alt="img4"
                           />
                           <input
                             type="text"

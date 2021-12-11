@@ -32,7 +32,7 @@ const Gallery = () => {
             <div className="row">
               <div className="isotope" id="port-items">
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item care" data-category="care">
-                  <img className="img-responsive center-block" src="assets/img/care1.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/care1.jpg" alt="Image1" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -45,7 +45,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
-                  <img className="img-responsive center-block" src="assets/img/treatment2.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/treatment2.jpg" alt="Image2" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -58,7 +58,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item staff" data-category="staff">
-                  <img className="img-responsive center-block" src="assets/img/staff1.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/staff1.jpg" alt="Image3" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -71,7 +71,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item care" data-category="care">
-                  <img className="img-responsive center-block" src="assets/img/care2.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/care2.jpg" alt="Image4" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -84,7 +84,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
-                  <img className="img-responsive center-block" src="assets/img/treatment1.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/treatment1.jpg" alt="Image5" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -97,7 +97,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item staff" data-category="staff">
-                  <img className="img-responsive center-block" src="assets/img/staff2.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/staff2.jpg" alt="Image6" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -110,7 +110,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item care" data-category="care">
-                  <img className="img-responsive center-block" src="assets/img/care3.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/care3.jpg" alt="Image7" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -123,7 +123,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
-                  <img className="img-responsive center-block" src="assets/img/treatment4.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/treatment4.jpg" alt="Image8" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -136,7 +136,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item staff" data-category="staff">
-                  <img className="img-responsive center-block" src="assets/img/staff4.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/staff4.jpg" alt="Image9" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -149,7 +149,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item donation" data-category="donation">
-                  <img className="img-responsive center-block" src="assets/img/donation2.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/donation2.jpg" alt="Image10" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -162,7 +162,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item pharmacy" data-category="pharmacy">
-                  <img className="img-responsive center-block" src="assets/img/pharmacy1.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/pharmacy1.jpg" alt="Image11" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -175,7 +175,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item staff" data-category="staff">
-                  <img className="img-responsive center-block" src="assets/img/staff3.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/staff3.jpg" alt="Image12" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -188,7 +188,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item donation" data-category="donation">
-                  <img className="img-responsive center-block" src="assets/img/donation1.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/donation1.jpg" alt="Image13" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -201,7 +201,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item pharmacy" data-category="pharmacy">
-                  <img className="img-responsive center-block" src="assets/img/pharmacy2.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/pharmacy2.jpg" alt="Image14" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>
@@ -214,7 +214,7 @@ const Gallery = () => {
                   </div>{/* /.item-desc */}
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
-                  <img className="img-responsive center-block" src="assets/img/treatment3.jpg" alt="Image" />
+                  <img className="img-responsive center-block" src="assets/img/treatment3.jpg" alt="Image15" />
                   <div className="item-desc hidden-xs">
                     <div className="item-title">
                       <h3>Lorem Ipsum</h3>

@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const Services = () => {
     return (
         <div>
@@ -132,19 +135,19 @@ const Services = () => {
                   <div className="service-tab">
                     <ul className="nav nav-tabs" role="tablist">
                       <li className="active">
-                        <a href="#all" role="tab" data-toggle="tab">All</a>
+                        <Link to="#all" role="tab" data-toggle="tab">All</ Link>
                       </li>
                       <li>
-                        <a href="#dental" role="tab" data-toggle="tab">Dental Service</a>
+                        <Link to="#dental" role="tab" data-toggle="tab">Dental Service</ Link>
                       </li>
                       <li>
-                        <a href="#diagnostic" role="tab" data-toggle="tab">Diagnostic Serivce</a>
+                        <Link to="#diagnostic" role="tab" data-toggle="tab">Diagnostic Serivce</ Link>
                       </li>
                       <li>
-                        <a href="#rehabilitation" role="tab" data-toggle="tab">Rehabilitation Serivce</a>
+                        <Link to="#rehabilitation" role="tab" data-toggle="tab">Rehabilitation Serivce</ Link>
                       </li>
                       <li>
-                        <a href="#donor" role="tab" data-toggle="tab">Donation Serivce</a>
+                        <Link to="#donor" role="tab" data-toggle="tab">Donation Serivce</ Link>
                       </li>		
                     </ul>
                     <div id="myTabContent" className="tab-content">
@@ -158,8 +161,8 @@ const Services = () => {
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
                             </p>
-                            <a href="#" className="service-rm-btn btn btn-primary">
-                              View Full Description <i className="fa fa-caret-right" /></a>
+                            <Link to="#" className="service-rm-btn btn btn-primary">
+                              View Full Description <i className="fa fa-caret-right" /></ Link>
                           </div>
                         </div>
                         <div className="row service-item">
@@ -171,8 +174,8 @@ const Services = () => {
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
                             </p>
-                            <a href="#" className="service-rm-btn btn btn-primary">
-                              View Full Description <i className="fa fa-caret-right" /></a>
+                            <Link to="#" className="service-rm-btn btn btn-primary">
+                              View Full Description <i className="fa fa-caret-right" /></ Link>
                           </div>
                         </div>
                         <div className="row service-item">
@@ -184,8 +187,8 @@ const Services = () => {
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
                             </p>
-                            <a href="#" className="service-rm-btn btn btn-primary">
-                              View Full Description <i className="fa fa-caret-right" /></a>
+                            <Link to="#" className="service-rm-btn btn btn-primary">
+                              View Full Description <i className="fa fa-caret-right" /></ Link>
                           </div>
                         </div>
                         <div className="row service-item">
@@ -197,8 +200,8 @@ const Services = () => {
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
                             </p>
-                            <a href="#" className="service-rm-btn btn btn-primary">
-                              View Full Description <i className="fa fa-caret-right" /></a>
+                            <Link to="#" className="service-rm-btn btn btn-primary">
+                              View Full Description <i className="fa fa-caret-right" /></ Link>
                           </div>
                         </div>
                       </div>
@@ -212,8 +215,8 @@ const Services = () => {
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
                             </p>
-                            <a href="#" className="service-rm-btn btn btn-primary">
-                              View Full Description <i className="fa fa-caret-right" /></a>
+                            <Link to="#" className="service-rm-btn btn btn-primary">
+                              View Full Description <i className="fa fa-caret-right" /></ Link>
                           </div>
                         </div>
                         <div className="row service-item">
@@ -225,8 +228,8 @@ const Services = () => {
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
                             </p>
-                            <a href="#" className="service-rm-btn btn btn-primary">
-                              View Full Description <i className="fa fa-caret-right" /></a>
+                            <Link to="#" className="service-rm-btn btn btn-primary">
+                              View Full Description <i className="fa fa-caret-right" /></ Link>
                           </div>
                         </div>
                       </div>
@@ -240,8 +243,8 @@ const Services = () => {
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
                             </p>
-                            <a href="#" className="service-rm-btn btn btn-primary">
-                              View Full Description <i className="fa fa-caret-right" /></a>
+                            <Link to="#" className="service-rm-btn btn btn-primary">
+                              View Full Description <i className="fa fa-caret-right" /></ Link>
                           </div>
                         </div>
                         <div className="row service-item">
@@ -253,8 +256,8 @@ const Services = () => {
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
                             </p>
-                            <a href="#" className="service-rm-btn btn btn-primary">
-                              View Full Description <i className="fa fa-caret-right" /></a>
+                            <Link to="#" className="service-rm-btn btn btn-primary">
+                              View Full Description <i className="fa fa-caret-right" /></ Link>
                           </div>
                         </div>
                       </div>
@@ -268,8 +271,8 @@ const Services = () => {
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
                             </p>
-                            <a href="#" className="service-rm-btn btn btn-primary">
-                              View Full Description <i className="fa fa-caret-right" /></a>
+                            <Link to="#" className="service-rm-btn btn btn-primary">
+                              View Full Description <i className="fa fa-caret-right" /></ Link>
                           </div>
                         </div>
                         <div className="row service-item">
@@ -281,8 +284,8 @@ const Services = () => {
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
                             </p>
-                            <a href="#" className="service-rm-btn btn btn-primary">
-                              View Full Description <i className="fa fa-caret-right" /></a>
+                            <Link to="#" className="service-rm-btn btn btn-primary">
+                              View Full Description <i className="fa fa-caret-right" /></ Link>
                           </div>
                         </div>
                       </div>
@@ -296,8 +299,8 @@ const Services = () => {
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
                             </p>
-                            <a href="#" className="service-rm-btn btn btn-primary">
-                              View Full Description <i className="fa fa-caret-right" /></a>
+                            <Link to="#" className="service-rm-btn btn btn-primary">
+                              View Full Description <i className="fa fa-caret-right" /></ Link>
                           </div>
                         </div>
                         <div className="row service-item">
@@ -309,8 +312,8 @@ const Services = () => {
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
                             </p>
-                            <a href="#" className="service-rm-btn btn btn-primary">
-                              View Full Description <i className="fa fa-caret-right" /></a>
+                            <Link to="#" className="service-rm-btn btn btn-primary">
+                              View Full Description <i className="fa fa-caret-right" /></ Link>
                           </div>
                         </div>
                       </div>
@@ -322,10 +325,10 @@ const Services = () => {
                 <div className="appointment">
                   <div className="header text-center">
                     <h2>Make an Appointment</h2>
-                    <a href="#" className="number">
+                    <Link to="#" className="number">
                       <i className="fa fa-phone fa-fw" />
                       1-800-123-4567
-                    </a>
+                    </ Link>
                     <span className="or">OR</span>
                   </div>
                   {/* form of appointment */}

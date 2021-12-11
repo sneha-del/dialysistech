@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const Doctor = () => {
     return (
         <div>
@@ -47,13 +50,13 @@ const Doctor = () => {
                       <div className="doctor-social text-center">
                         <ul className="contact">
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Share in Facebook"><i className="fa fa-facebook" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Share in Facebook"><i className="fa fa-facebook" /></Link>
                           </li>
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Connect with Skype"><i className="fa fa-skype" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Connect with Skype"><i className="fa fa-skype" /></Link>
                           </li>
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Share in Google +"><i className="fa fa-google-plus" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Share in Google +"><i className="fa fa-google-plus" /></Link>
                           </li>
                         </ul>
                       </div>
@@ -88,13 +91,13 @@ const Doctor = () => {
                       <div className="doctor-social text-center">
                         <ul className="contact">
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Share in Facebook"><i className="fa fa-facebook" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Share in Facebook"><i className="fa fa-facebook" /></Link>
                           </li>
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Connect with Skype"><i className="fa fa-skype" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Connect with Skype"><i className="fa fa-skype" /></Link>
                           </li>
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Share in Google +"><i className="fa fa-google-plus" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Share in Google +"><i className="fa fa-google-plus" /></Link>
                           </li>
                         </ul>
                       </div>
@@ -129,13 +132,13 @@ const Doctor = () => {
                       <div className="doctor-social text-center">
                         <ul className="contact">
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Share in Facebook"><i className="fa fa-facebook" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Share in Facebook"><i className="fa fa-facebook" /></Link>
                           </li>
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Connect with Skype"><i className="fa fa-skype" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Connect with Skype"><i className="fa fa-skype" /></Link>
                           </li>
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Share in Google +"><i className="fa fa-google-plus" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Share in Google +"><i className="fa fa-google-plus" /></Link>
                           </li>
                         </ul>
                       </div>
@@ -170,13 +173,13 @@ const Doctor = () => {
                       <div className="doctor-social text-center">
                         <ul className="contact">
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Share in Facebook"><i className="fa fa-facebook" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Share in Facebook"><i className="fa fa-facebook" /></Link>
                           </li>
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Connect with Skype"><i className="fa fa-skype" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Connect with Skype"><i className="fa fa-skype" /></Link>
                           </li>
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Share in Google +"><i className="fa fa-google-plus" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Share in Google +"><i className="fa fa-google-plus" /></Link>
                           </li>
                         </ul>
                       </div>
@@ -211,13 +214,13 @@ const Doctor = () => {
                       <div className="doctor-social text-center">
                         <ul className="contact">
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Share in Facebook"><i className="fa fa-facebook" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Share in Facebook"><i className="fa fa-facebook" /></Link>
                           </li>
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Connect with Skype"><i className="fa fa-skype" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Connect with Skype"><i className="fa fa-skype" /></Link>
                           </li>
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Share in Google +"><i className="fa fa-google-plus" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Share in Google +"><i className="fa fa-google-plus" /></Link>
                           </li>
                         </ul>
                       </div>
@@ -252,13 +255,13 @@ const Doctor = () => {
                       <div className="doctor-social text-center">
                         <ul className="contact">
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Share in Facebook"><i className="fa fa-facebook" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Share in Facebook"><i className="fa fa-facebook" /></Link>
                           </li>
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Connect with Skype"><i className="fa fa-skype" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Connect with Skype"><i className="fa fa-skype" /></Link>
                           </li>
                           <li className="online-contact">
-                            <a href="#" data-toggle="tooltip" title="Share in Google +"><i className="fa fa-google-plus" /></a>
+                            <Link to="#" data-toggle="tooltip" title="Share in Google +"><i className="fa fa-google-plus" /></Link>
                           </li>
                         </ul>
                       </div>

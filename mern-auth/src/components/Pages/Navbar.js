@@ -51,10 +51,10 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
                   <span className="icon-bar" />
                   <span className="icon-bar" />
                 </button>
-                <a className="navbar-brand logo" href="#">
+                <Link className="navbar-brand logo" to="/">
                   <span><i className="fa fa-stethoscope" /></span>
                   HealthCare
-                </a>
+                </Link>
               </div>
               {/* Collect the nav links, forms, and other content for toggling */}
               <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
