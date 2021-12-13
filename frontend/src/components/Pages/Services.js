@@ -88,7 +88,7 @@ const Services = () => {
             <div className="col-lg-7">
               <div className="cta-content">
                 <div className="divider mb-4" />
-                <h2 className="mb-5 text-lg">We are pleased to offer you the <span className="title-color">chance to have the healthy</span></h2>
+                <h2 className="mb-5 text-lg">We are delighted to provide you with the <span className="title-color">opportunity to enjoy a healthy lifestyle. </span></h2>
                 <Link to="/appointment" className="btn btn-main-2 btn-round-full">Get appoinment<i className="icofont-simple-right  ml-2" /></Link>
               </div>
             </div>

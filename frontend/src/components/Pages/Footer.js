@@ -55,14 +55,14 @@ const Footer = () => {
                   <i className="icofont-email mr-3" />
                   <span className="h6 mb-0">Support Available for 24/7</span>
                 </div>
-                <h4 className="mt-2"><Link to="tel:+23-345-67890">Support@email.com</Link></h4>
+                <h4 className="mt-2"><Link to="tel:+23-345-67890">globaldialysis@gmail.com</Link></h4>
               </div>
               <div className="footer-contact-block">
                 <div className="icon d-flex align-items-center">
                   <i className="icofont-support mr-3" />
-                  <span className="h6 mb-0">Mon to Fri : 08:30 - 18:00</span>
+                  <span className="h6 mb-0">Mon to Sat : 08:30 - 20:30</span>
                 </div>
-                <h4 className="mt-2"><Link to="tel:+23-345-67890">+91-9644-705777</Link></h4>
+                <h4 className="mt-2"><Link to="tel:+91-9644-705777">+91-9644-705777</Link></h4>
               </div>
             </div>
           </div>

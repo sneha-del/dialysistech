@@ -112,26 +112,26 @@ const Appointment = () => {
                   <i className="icofont-support text-lg" />
                 </div>
                 <span className="h3">Call for an Emergency Service!</span>
-                <h2 className="text-color mt-3">+84 789 1256 </h2>
+                <h2 className="text-color mt-3">+919644705777 </h2>
               </div>
             </div>
             <div className="col-lg-8">
               <div className="appoinment-wrap mt-5 mt-lg-0 pl-lg-5">
                 <h2 className="mb-2 title-color">Book an appoinment</h2>
-                <p className="mb-4">Mollitia dicta commodi est recusandae iste, natus eum asperiores corrupti qui velit . Iste dolorum atque similique praesentium soluta.</p>
+                <p className="mb-4">Assisting Our Patients And Their Families In Getting Back To What Really Matters.</p>
                 <form id="#" className="appoinment-form" method="post" action="#">
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="form-group">
                         <select className="form-control" id="exampleFormControlSelect1">
                           <option>Choose Department</option>
-                          <option>Software Design</option>
-                          <option>Development cycle</option>
+                          <option>Dialysis</option>
+                          {/* <option>Development cycle</option>
                           <option>Software Development</option>
                           <option>Maintenance</option>
                           <option>Process Query</option>
                           <option>Cost and Duration</option>
-                          <option>Modal Delivery</option>
+                          <option>Modal Delivery</option> */}
                         </select>
                       </div>
                     </div>
@@ -139,13 +139,13 @@ const Appointment = () => {
                       <div className="form-group">
                         <select className="form-control" id="exampleFormControlSelect2">
                           <option>Select Doctors</option>
-                          <option>Software Design</option>
-                          <option>Development cycle</option>
+                          <option>Dr. Abhinay Singh</option>
+                          {/* <option>Development cycle</option>
                           <option>Software Development</option>
                           <option>Maintenance</option>
                           <option>Process Query</option>
                           <option>Cost and Duration</option>
-                          <option>Modal Delivery</option>
+                          <option>Modal Delivery</option> */}
                         </select>
                       </div>
                     </div>

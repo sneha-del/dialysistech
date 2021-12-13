@@ -17,7 +17,7 @@ const Homepage = () => {
                 <div className="block">
                   <div className="divider mb-3" />
                   <span className="text-uppercase text-sm letter-spacing ">Total Health care solution</span>
-                  <h1 className="mb-3 mt-3">Your most trusted health partner</h1>
+                  <h1 className="mb-3 mt-3">Your most trusted dialysis partner</h1>
                   <p className="mb-4 pr-5">A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</p>
                   <div className="btn-container ">
                     <Link to="/appointment" target="_blank" className="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i className="icofont-simple-right ml-2  " /></Link>

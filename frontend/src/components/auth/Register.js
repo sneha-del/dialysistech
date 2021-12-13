@@ -113,8 +113,9 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
                 </div>
               </div>
             </div>
-			<input type="submit" className="btn btn-primary" value="Register" />
+			<input type="submit" className="btn btn-main btn-round-full" value="Register" />
           </form>
+          <br/>
 		  <p className="mb-5">
           Already have an account? <Link to="/login">Sign In</Link>
         </p>
