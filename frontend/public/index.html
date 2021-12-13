@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="dialysis.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<meta
+			name="description"
+			content="Web site created using create-react-app"
+		/>
+		<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+		<title>Gloabal Dialysis</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
+  <!-- Slick Slider  CSS -->
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+		<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	    <!-- <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700' rel='stylesheet' type='text/css'> -->
+	    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600' rel='stylesheet' type='text/css'>
+	    
+	    
+		<!-- <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.transitions.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'> -->
+	</head>
+	<body>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root"></div>
+
+
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.js"></script>
+    <!-- Bootstrap 4.3.2 -->
+    <script src="plugins/bootstrap/js/popper.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/counterup/jquery.easing.js"></script>
+    <!-- Slick Slider -->
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Counterup -->
+    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
+    
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/counterup/jquery.counterup.min.js"></script>
+    <!-- Google Map -->
+    <script src="plugins/google-map/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
+    
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+		<!-- <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="assets/js/wow.min.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+		<script>
+      		new WOW().init();
+		</script>
+
+		<script>
+			$(document).ready(function() {
+  				$("#starting-slider").owlCarousel({
+  					autoPlay: 3000,
+      				navigation : false, // Show next and prev buttons
+      				slideSpeed : 700,
+      				paginationSpeed : 1000,
+      				singleItem:true
+  				});
+			});
+		</script>
+
+
+		<script>
+			$( function() {
+				  // init Isotope
+			  	var $container = $('.isotope').isotope
+			  	({
+				    itemSelector: '.element-item',
+				    layoutMode: 'fitRows'
+			  	});
+
+
+  				// bind filter button click
+  				$('#filters').on( 'click', 'button', function() 
+  				{
+				    var filterValue = $( this ).attr('data-filter');
+				    // use filterFn if matches value
+				    $container.isotope({ filter: filterValue });
+				 });
+  
+			  // change is-checked class on buttons
+			  	$('.button-group').each( function( i, buttonGroup ) 
+			  	{
+			    	var $buttonGroup = $( buttonGroup );
+			    	$buttonGroup.on( 'click', 'button', function() 
+			    	{
+			      		$buttonGroup.find('.is-checked').removeClass('is-checked');
+			      		$( this ).addClass('is-checked');
+			    	});
+			  	});
+			  
+			});
+		</script>
+
+<script>
+	function initialize() {
+	  var mapCanvas = document.getElementById('map-canvas');
+	  var mapOptions = {
+		center: new google.maps.LatLng(24.900392, 91.853181),
+		zoom: 16,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	  }
+	  var map = new google.maps.Map(mapCanvas, mapOptions)
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+
+  <script>
+		new WOW().init();
+  </script>
+
+<script type="text/javascript">
+	$(".faq-q").click( function () {
+	  var container = $(this).parents(".faq-c");
+	  var answer = container.find(".faq-a");
+	  var trigger = container.find(".faq-t");
+	  
+	  answer.slideToggle(200);
+	  
+	  if (trigger.hasClass("faq-o")) {
+		trigger.removeClass("faq-o");
+	  }
+	  else {
+		trigger.addClass("faq-o");
+	  }
+	});
+</script>	
+
+<script>
+	$( function() {
+		  // init Isotope
+		  var $container = $('.isotope').isotope
+		  ({
+			itemSelector: '.element-item',
+			layoutMode: 'fitRows'
+		  });
+
+
+		  // bind filter button click
+		  $('#filters').on( 'click', 'button', function() 
+		  {
+			var filterValue = $( this ).attr('data-filter');
+			// use filterFn if matches value
+			$container.isotope({ filter: filterValue });
+		 });
+
+	  // change is-checked class on buttons
+		  $('.button-group').each( function( i, buttonGroup ) 
+		  {
+			var $buttonGroup = $( buttonGroup );
+			$buttonGroup.on( 'click', 'button', function() 
+			{
+				  $buttonGroup.find('.is-checked').removeClass('is-checked');
+				  $( this ).addClass('is-checked');
+			});
+		  });
+	  
+	});
+</script>
+
+<script>
+	$('#myTab a').click(function (e) 
+	{
+		e.preventDefault()
+		$(this).tab('show')
+	})
+</script> -->
+	</body>
+</html>
