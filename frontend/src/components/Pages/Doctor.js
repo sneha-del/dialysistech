@@ -11,7 +11,7 @@ const Doctor = () => {
             <div className="col-md-12">
               <div className="block text-center">
                 <span className="text-white">Doctor Details</span>
-                <h1 className="text-capitalize mb-5 text-lg">Alexandar james</h1>
+                <h1 className="text-capitalize mb-5 text-lg">Dr. Abhinay Singh</h1>
                 {/* <ul class="list-inline breadcumb-nav">
           <li class="list-inline-item"><Link to="index.html" class="text-white">Home</Link></li>
           <li class="list-inline-item"><span class="text-white">/</span></li>
@@ -29,7 +29,7 @@ const Doctor = () => {
               <div className="doctor-img-block">
                 <img src="images/team/1.jpg" alt="" className="img-fluid w-100" />
                 <div className="info-block mt-4">
-                  <h4 className="mb-0">Alexandar james</h4>
+                  <h4 className="mb-0">Dr. Abhinay Singh</h4>
                   <p>Orthopedic Surgary</p>
                   <ul className="list-inline mt-4 doctor-social-links">
                     <li className="list-inline-item"><Link to="#"><i className="icofont-facebook" /></Link></li>
@@ -70,11 +70,11 @@ const Doctor = () => {
                 <h4 className="mb-3 title-color">MBBS, M.D at University of Wyoming</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque harum, mollitia, soluta maxime porro veritatis fuga autem impedit corrupti aperiam sint, architecto, error nesciunt temporibus! Vel quod, dolor aliquam!</p>
               </div>
-              <div className="edu-block">
+              {/* <div className="edu-block">
                 <span className="h6 text-muted">Year(2007-2009) </span>
                 <h4 className="mb-3 title-color">M.D. of Netherland Medical College</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque harum, mollitia, soluta maxime porro veritatis fuga autem impedit corrupti aperiam sint, architecto, error nesciunt temporibus! Vel quod, dolor aliquam!</p>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-6">
               <div className="edu-block mb-5">
@@ -82,16 +82,16 @@ const Doctor = () => {
                 <h4 className="mb-3 title-color">MBBS, M.D at University of Japan</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque harum, mollitia, soluta maxime porro veritatis fuga autem impedit corrupti aperiam sint, architecto, error nesciunt temporibus! Vel quod, dolor aliquam!</p>
               </div>
-              <div className="edu-block">
+              {/* <div className="edu-block">
                 <span className="h6 text-muted">Year(2010-2011) </span>
                 <h4 className="mb-3 title-color">M.D. of Canada Medical College</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque harum, mollitia, soluta maxime porro veritatis fuga autem impedit corrupti aperiam sint, architecto, error nesciunt temporibus! Vel quod, dolor aliquam!</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </section>
-      <section className="section doctor-skills">
+      {/* <section className="section doctor-skills">
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
@@ -137,7 +137,7 @@ const Doctor = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
     )
 }

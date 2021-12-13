@@ -16,6 +16,7 @@ import Footer from "./components/Pages/Footer";
 import Contact from "./components/Pages/Contact";
 import Doctor from "./components/Pages/Doctor";
 import About from "./components/Pages/About";
+import Appointment from "./components/Pages/Appointment";
 
 if (localStorage.token) {
   setAuthToken(localStorage.token);
@@ -39,7 +40,9 @@ function App() {
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/appointment" component={Appointment} />
             <Route exact path="" component={NotFound} />
+           
           </Switch>
           <Footer />
         </Router>

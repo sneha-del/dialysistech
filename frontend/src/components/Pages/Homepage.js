@@ -20,7 +20,7 @@ const Homepage = () => {
                   <h1 className="mb-3 mt-3">Your most trusted health partner</h1>
                   <p className="mb-4 pr-5">A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</p>
                   <div className="btn-container ">
-                    <Link to="appoinment.html" target="_blank" className="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i className="icofont-simple-right ml-2  " /></Link>
+                    <Link to="/appointment" target="_blank" className="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i className="icofont-simple-right ml-2  " /></Link>
                   </div>
                 </div>
               </div>
@@ -39,7 +39,7 @@ const Homepage = () => {
                     <span>24 Hours Service</span>
                     <h4 className="mb-3">Online Appoinment</h4>
                     <p className="mb-4">Get ALl time support for emergency.We have introduced the principle of family medicine.</p>
-                    <Link to="appoinment.html" className="btn btn-main btn-round-full">Make a appoinment</Link>
+                    <Link to="/appointment" className="btn btn-main btn-round-full">Make a appoinment</Link>
                   </div>
                   <div className="feature-item mb-5 mb-lg-0">
                     <div className="feature-icon mb-4">
@@ -58,7 +58,7 @@ const Homepage = () => {
                       <i className="icofont-support" />
                     </div>
                     <span>Emegency Cases</span>
-                    <h4 className="mb-3">1-800-700-6200</h4>
+                    <h4 className="mb-3">+91-9644705777</h4>
                     <p>Get ALl time support for emergency.We have introduced the principle of family medicine.Get Conneted with us for any urgency .</p>
                   </div>
                 </div>
@@ -84,13 +84,13 @@ const Homepage = () => {
                 <div className="about-content pl-4 mt-4 mt-lg-0">
                   <h2 className="title-color">Personal care <br />&amp; healthy living</h2>
                   <p className="mt-4 mb-5">We provide best leading medicle service Nulla perferendis veniam deleniti ipsum officia dolores repellat laudantium obcaecati neque.</p>
-                  <Link to="service.html" className="btn btn-main-2 btn-round-full btn-icon">Services<i className="icofont-simple-right ml-3" /></Link>
+                  <Link to="/services" className="btn btn-main-2 btn-round-full btn-icon">Services<i className="icofont-simple-right ml-3" /></Link>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="cta-section ">
+        {/* <section className="cta-section ">
           <div className="container">
             <div className="cta position-relative">
               <div className="row">
@@ -125,7 +125,7 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="section service gray-bg">
           <div className="container">
             <div className="row justify-content-center">
@@ -171,7 +171,7 @@ const Homepage = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-6">
+              {/* <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="service-item mb-4">
                   <div className="icon d-flex align-items-center">
                     <i className="icofont-crutch text-lg" />
@@ -181,8 +181,8 @@ const Homepage = () => {
                     <p className="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-6">
+              </div> */}
+              {/* <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="service-item mb-4">
                   <div className="icon d-flex align-items-center">
                     <i className="icofont-brain-alt text-lg" />
@@ -192,8 +192,8 @@ const Homepage = () => {
                     <p className="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-6">
+              </div> */}
+              {/* <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="service-item mb-4">
                   <div className="icon d-flex align-items-center">
                     <i className="icofont-dna-alt-1 text-lg" />
@@ -203,7 +203,7 @@ const Homepage = () => {
                     <p className="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -214,7 +214,7 @@ const Homepage = () => {
                 <div className="appoinment-content">
                   <img src="images/about/img-3.jpg" alt="" className="img-fluid" />
                   <div className="emergency">
-                    <h2 className="text-lg"><i className="icofont-phone-circle text-lg" />+23 345 67980</h2>
+                    <h2 className="text-lg"><i className="icofont-phone-circle text-lg" />+919644705777</h2>
                   </div>
                 </div>
               </div>
@@ -276,7 +276,7 @@ const Homepage = () => {
                     <div className="form-group-2 mb-4">
                       <textarea name="message" id="message" className="form-control" rows={6} placeholder="Your Message" defaultValue={""} />
                     </div>
-                    <Link className="btn btn-main btn-round-full" to="appoinment.html">Make Appoinment <i className="icofont-simple-right ml-2  " /></Link>
+                    <Link className="btn btn-main btn-round-full" to="/appointment">Make Appoinment <i className="icofont-simple-right ml-2  " /></Link>
                   </form>
                 </div>
               </div>
@@ -324,7 +324,7 @@ const Homepage = () => {
                   </div>
                   <i className="icofont-quote-right" />
                 </div>
-                <div className="testimonial-block style-2  gray-bg">
+                {/* <div className="testimonial-block style-2  gray-bg">
                   <div className="testimonial-thumb">
                     <img src="images/team/test-thumb3.jpg" alt="" className="img-fluid" />
                   </div>
@@ -336,8 +336,8 @@ const Homepage = () => {
                     </p>
                   </div>
                   <i className="icofont-quote-right" />
-                </div>
-                <div className="testimonial-block style-2  gray-bg">
+                </div> */}
+                {/* <div className="testimonial-block style-2  gray-bg">
                   <div className="testimonial-thumb">
                     <img src="images/team/test-thumb4.jpg" alt="" className="img-fluid" />
                   </div>
@@ -349,8 +349,8 @@ const Homepage = () => {
                     </p>
                   </div>
                   <i className="icofont-quote-right" />
-                </div>
-                <div className="testimonial-block style-2  gray-bg">
+                </div> */}
+                {/* <div className="testimonial-block style-2  gray-bg">
                   <div className="testimonial-thumb">
                     <img src="images/team/test-thumb1.jpg" alt="" className="img-fluid" />
                   </div>
@@ -362,12 +362,12 @@ const Homepage = () => {
                     </p>
                   </div>
                   <i className="icofont-quote-right" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </section>
-        <section className="section clients">
+        {/* <section className="section clients">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-7">
@@ -433,7 +433,7 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
       {/* testimonial */}
     </div>

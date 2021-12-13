@@ -30,7 +30,7 @@ const Contact = () => {
               <div className="contact-block mb-4 mb-lg-0">
                 <i className="icofont-live-support" />
                 <h5>Call Us</h5>
-                +823-4565-13456
+                +91-9644705777
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
@@ -44,7 +44,7 @@ const Contact = () => {
               <div className="contact-block mb-4 mb-lg-0">
                 <i className="icofont-location-pin" />
                 <h5>Location</h5>
-                North Main Street,Brooklyn Australia
+                Gandhi Road, Gwalior(M.P.) 474002
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="logo mb-4">
                 <img src="images/logo.png" alt="" className="img-fluid" />
               </div>
-              <p>Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus.</p>
+              <p>Global Dialysis has been the pioneer in bringing ground-breaking healthcare technologies to India. Combining the best specialists and equipment to provide you nothing short of the best in healthcare.</p>
               <ul className="list-inline footer-socials mt-4">
                 <li className="list-inline-item"><Link to="https://www.facebook.com/themefisher"><i className="icofont-facebook" /></Link></li>
                 <li className="list-inline-item"><Link to="https://twitter.com/themefisher"><i className="icofont-twitter" /></Link></li>
@@ -62,7 +62,7 @@ const Footer = () => {
                   <i className="icofont-support mr-3" />
                   <span className="h6 mb-0">Mon to Fri : 08:30 - 18:00</span>
                 </div>
-                <h4 className="mt-2"><Link to="tel:+23-345-67890">+23-456-6588</Link></h4>
+                <h4 className="mt-2"><Link to="tel:+23-345-67890">+91-9644-705777</Link></h4>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ const Footer = () => {
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
               <div className="copyright">
-                © Copyright Reserved to <span className="text-color">Novena</span> by <Link to="https://themefisher.com/" target="_blank">Themefisher</Link>
+                © Copyright Reserved to GlobalDialysis by <Link to="https://themefisher.com/" target="_blank">sv-devops</Link>
               </div>
             </div>
             <div className="col-lg-6">
