@@ -37,7 +37,7 @@ const Contact = () => {
               <div className="contact-block mb-4 mb-lg-0">
                 <i className="icofont-support-faq" />
                 <h5>Email Us</h5>
-                contact@mail.com
+                globaldialysis@gmail.com
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
@@ -57,7 +57,7 @@ const Contact = () => {
               <div className="section-title text-center">
                 <h2 className="text-md mb-2">Contact us</h2>
                 <div className="divider mx-auto my-4" />
-                <p className="mb-5">Laboriosam exercitationem molestias beatae eos pariatur, similique, excepturi mollitia sit perferendis maiores ratione aliquam?</p>
+                <p className="mb-5">Are easy to find, so a patients can quickly get in touch should they need it.</p>
               </div>
             </div>
           </div>

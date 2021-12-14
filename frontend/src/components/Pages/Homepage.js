@@ -16,9 +16,9 @@ const Homepage = () => {
               <div className="col-lg-6 col-md-12 col-xl-7">
                 <div className="block">
                   <div className="divider mb-3" />
-                  <span className="text-uppercase text-sm letter-spacing ">Total Health care solution</span>
+                  <span className="text-uppercase text-sm letter-spacing ">Protect your kidney with this simple checkup.</span>
                   <h1 className="mb-3 mt-3">Your most trusted dialysis partner</h1>
-                  <p className="mb-4 pr-5">A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</p>
+                  <p className="mb-4 pr-5">Serving all people through exemplary health care, education, research, and community outreach.</p>
                   <div className="btn-container ">
                     <Link to="/appointment" target="_blank" className="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i className="icofont-simple-right ml-2  " /></Link>
                   </div>
@@ -38,7 +38,7 @@ const Homepage = () => {
                     </div>
                     <span>24 Hours Service</span>
                     <h4 className="mb-3">Online Appoinment</h4>
-                    <p className="mb-4">Get ALl time support for emergency.We have introduced the principle of family medicine.</p>
+                    <p className="mb-4">Obtain round-the-clock assistance in the event of an emergency. We've covered the fundamentals of family medicine.</p>
                     <Link to="/appointment" className="btn btn-main btn-round-full">Make a appoinment</Link>
                   </div>
                   <div className="feature-item mb-5 mb-lg-0">
@@ -48,9 +48,9 @@ const Homepage = () => {
                     <span>Timing schedule</span>
                     <h4 className="mb-3">Working Hours</h4>
                     <ul className="w-hours list-unstyled">
-                      <li className="d-flex justify-content-between">Sun - Wed : <span>8:00 - 17:00</span></li>
-                      <li className="d-flex justify-content-between">Thu - Fri : <span>9:00 - 17:00</span></li>
-                      <li className="d-flex justify-content-between">Sat - sun : <span>10:00 - 17:00</span></li>
+                      <li className="d-flex justify-content-between">Mon - Wed : <span>8:30 - 20:30</span></li>
+                      <li className="d-flex justify-content-between">Thu - Fri : <span>10:00 - 20:00</span></li>
+                      <li className="d-flex justify-content-between">Sat - sun : <span>10:30 - 16:00</span></li>
                     </ul>
                   </div>
                   <div className="feature-item mb-5 mb-lg-0">
@@ -59,7 +59,7 @@ const Homepage = () => {
                     </div>
                     <span>Emegency Cases</span>
                     <h4 className="mb-3">+91-9644705777</h4>
-                    <p>Get ALl time support for emergency.We have introduced the principle of family medicine.Get Conneted with us for any urgency .</p>
+                    <p>Get All time support for emergency.We have introduced the principle of family medicine.Get Conneted with us for any urgency .</p>
                   </div>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Homepage = () => {
               <div className="col-lg-4">
                 <div className="about-content pl-4 mt-4 mt-lg-0">
                   <h2 className="title-color">Personal care <br />&amp; healthy living</h2>
-                  <p className="mt-4 mb-5">We provide best leading medicle service Nulla perferendis veniam deleniti ipsum officia dolores repellat laudantium obcaecati neque.</p>
+                  <p className="mt-4 mb-5">We provide best Personal care because it is what fosters long-term self-love and excellent health.</p>
                   <Link to="/services" className="btn btn-main-2 btn-round-full btn-icon">Services<i className="icofont-simple-right ml-3" /></Link>
                 </div>
               </div>
@@ -133,11 +133,34 @@ const Homepage = () => {
                 <div className="section-title">
                   <h2>Award winning patient care</h2>
                   <div className="divider mx-auto my-4" />
-                  <p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
+                  <p>With our proprietary omnichannel technology, created for patients, care partners, you can improve adherence and the patient experience with us.</p>
                 </div>
               </div>
             </div>
             <div className="row">
+              
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="service-item mb-4">
+                  <div className="icon d-flex align-items-center">
+                    <i className="icofont-icu text-lg" />
+                    <h4 className="mt-3 mb-3">Kidney Disease</h4>
+                  </div>
+                  <div className="content">
+                    <p className="mb-4">You're more tired, have less energy or are having trouble concentrating.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="service-item mb-4">
+                  <div className="icon d-flex align-items-center">
+                    <i className="icofont-drug-pack text-lg" />
+                    <h4 className="mt-3 mb-3">Best Technology</h4>
+                  </div>
+                  <div className="content">
+                    <p className="mb-4"> A machine used in dialysis that filters a patient's blood. </p>
+                  </div>
+                </div>
+              </div>
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="service-item mb-4">
                   <div className="icon d-flex align-items-center">
@@ -145,29 +168,7 @@ const Homepage = () => {
                     <h4 className="mt-3 mb-3">Laboratory services</h4>
                   </div>
                   <div className="content">
-                    <p className="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-6">
-                <div className="service-item mb-4">
-                  <div className="icon d-flex align-items-center">
-                    <i className="icofont-heart-beat-alt text-lg" />
-                    <h4 className="mt-3 mb-3">Heart Disease</h4>
-                  </div>
-                  <div className="content">
-                    <p className="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-6">
-                <div className="service-item mb-4">
-                  <div className="icon d-flex align-items-center">
-                    <i className="icofont-tooth text-lg" />
-                    <h4 className="mt-3 mb-3">Dental Care</h4>
-                  </div>
-                  <div className="content">
-                    <p className="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                    <p className="mb-4">We provides the medical checkup for the kidney in laboratory.</p>
                   </div>
                 </div>
               </div>
@@ -221,20 +222,20 @@ const Homepage = () => {
               <div className="col-lg-6 col-md-10 ">
                 <div className="appoinment-wrap mt-5 mt-lg-0">
                   <h2 className="mb-2 title-color">Book appoinment</h2>
-                  <p className="mb-4">Mollitia dicta commodi est recusandae iste, natus eum asperiores corrupti qui velit . Iste dolorum atque similique praesentium soluta.</p>
+                  <p className="mb-4">Experience the new appointment booking system. </p>
                   <form id="#" className="appoinment-form" method="post" action="#">
                     <div className="row">
                       <div className="col-lg-6">
                         <div className="form-group">
                           <select className="form-control" id="exampleFormControlSelect1">
                             <option>Choose Department</option>
-                            <option>Software Design</option>
-                            <option>Development cycle</option>
+                            <option>Dialysis</option>
+                            {/* <option>Development cycle</option>
                             <option>Software Development</option>
                             <option>Maintenance</option>
                             <option>Process Query</option>
                             <option>Cost and Duration</option>
-                            <option>Modal Delivery</option>
+                            <option>Modal Delivery</option> */}
                           </select>
                         </div>
                       </div>
@@ -242,13 +243,13 @@ const Homepage = () => {
                         <div className="form-group">
                           <select className="form-control" id="exampleFormControlSelect2">
                             <option>Select Doctors</option>
-                            <option>Software Design</option>
-                            <option>Development cycle</option>
+                            <option>Dr. Abhinay Singh</option>
+                            {/* <option>Development cycle</option>
                             <option>Software Development</option>
                             <option>Maintenance</option>
                             <option>Process Query</option>
                             <option>Cost and Duration</option>
-                            <option>Modal Delivery</option>
+                            <option>Modal Delivery</option> */}
                           </select>
                         </div>
                       </div>
@@ -288,9 +289,9 @@ const Homepage = () => {
             <div className="row justify-content-center">
               <div className="col-lg-7">
                 <div className="section-title text-center">
-                  <h2>We served over 5000+ Patients</h2>
+                  <h2>We served over 1000+ Patients</h2>
                   <div className="divider mx-auto my-4" />
-                  <p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
+                  <p>Lets see what we have done in the past with our valuable feedback given by our patients and there attender.</p>
                 </div>
               </div>
             </div>
@@ -305,9 +306,9 @@ const Homepage = () => {
                   </div>
                   <div className="client-info ">
                     <h4>Amazing service!</h4>
-                    <span>John Partho</span>
+                    <span>Mr. Ajay</span>
                     <p>
-                      They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
+                     In the dialysis they are the best working team as per my knowledge no body in the gwalior provides this type of servicing in the dialysis.
                     </p>
                   </div>
                 </div>
@@ -317,9 +318,9 @@ const Homepage = () => {
                   </div>
                   <div className="client-info">
                     <h4>Expert doctors!</h4>
-                    <span>Mullar Sarth</span>
+                    <span>Mr. Khandelwal</span>
                     <p>
-                      They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
+                      The doctor is the best in there work and gives a treatment in a very well manner and everyone must try to ine time dialysis over there.
                     </p>
                   </div>
                   <i className="icofont-quote-right" />

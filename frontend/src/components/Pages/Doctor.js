@@ -30,13 +30,13 @@ const Doctor = () => {
                 <img src="images/team/1.jpg" alt="" className="img-fluid w-100" />
                 <div className="info-block mt-4">
                   <h4 className="mb-0">Dr. Abhinay Singh</h4>
-                  <p>Orthopedic Surgary</p>
+                  <p>Dialysis Technician</p>
                   <ul className="list-inline mt-4 doctor-social-links">
                     <li className="list-inline-item"><Link to="#"><i className="icofont-facebook" /></Link></li>
                     <li className="list-inline-item"><Link to="#"><i className="icofont-twitter" /></Link></li>
-                    <li className="list-inline-item"><Link to="#"><i className="icofont-skype" /></Link></li>
+                    {/* <li className="list-inline-item"><Link to="#"><i className="icofont-skype" /></Link></li> */}
                     <li className="list-inline-item"><Link to="#"><i className="icofont-linkedin" /></Link></li>
-                    <li className="list-inline-item"><Link to="#"><i className="icofont-pinterest" /></Link></li>
+                    {/* <li className="list-inline-item"><Link to="#"><i className="icofont-pinterest" /></Link></li> */}
                   </ul>
                 </div>
               </div>

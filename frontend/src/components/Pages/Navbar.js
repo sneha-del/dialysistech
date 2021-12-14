@@ -46,7 +46,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
               
               <li className="nav-item"><Link className="nav-link" to="/contact-us">Contact</Link></li>
 			  
-              <li className="nav-item"><Link className="nav-link" to="/register">Signup</Link></li>
+              <li className="nav-item"><Link className="btn btn-main btn-round-full" to="/register">Signup</Link></li>
 		</ul>
 	);
 
