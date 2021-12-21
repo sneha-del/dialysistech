@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 //import { useHistory } from "react-router";
 import { Link } from "react-router-dom";
 
@@ -7,6 +7,45 @@ const Homepage = () => {
   // const navigate = () => {
   //   history.push("/about");
   // };
+
+
+  
+  const [data, setData] = useState({
+    date: "",
+    time: "",
+    name: "",
+    phone: "",
+    message: "",
+  })
+
+  const { date, time, name,  phone, message } = data; 
+
+  const handleChange = (e) => {
+    setData({ ...data, [e.target.name]: e.target.value });
+  };
+
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch( "https://v1.nocodeapi.com/vikasnarwariya/google_sheets/mawZghuqeJsNDxky?tabId=Sheet2",
+      {
+                          method: "post",
+                           body: JSON.stringify([[ date, time, name,  phone, message, new Date().toLocaleString()]]),
+                           headers: {
+                               "Content-Type": "application/json"
+                           }
+                       }
+        
+      );
+      await response.json();
+      setData({ ...data, date: "", time: "", name: "", phone: "", message: ""});
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
   return (
     <div>
       <div>
@@ -20,7 +59,7 @@ const Homepage = () => {
                   <h1 className="mb-3 mt-3">Your most trusted dialysis partner</h1>
                   <p className="mb-4 pr-5">Serving all people through exemplary health care, education, research, and community outreach.</p>
                   <div className="btn-container ">
-                    <Link to="/appointment" target="_blank" className="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i className="icofont-simple-right ml-2  " /></Link>
+                    <Link to="/appointment" className="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i className="icofont-simple-right ml-2  " /></Link>
                   </div>
                 </div>
               </div>
@@ -223,61 +262,62 @@ const Homepage = () => {
                 <div className="appoinment-wrap mt-5 mt-lg-0">
                   <h2 className="mb-2 title-color">Book appoinment</h2>
                   <p className="mb-4">Experience the new appointment booking system. </p>
-                  <form id="#" className="appoinment-form" method="post" action="#">
+                  <form id="#" className="appoinment-form" method="post"  onSubmit={handleSubmit}>
                     <div className="row">
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <select className="form-control" id="exampleFormControlSelect1">
+                          {/* <select className="form-control" id="exampleFormControlSelect1">
                             <option>Choose Department</option>
-                            <option>Dialysis</option>
+                            <option>Dialysis</option> */}
                             {/* <option>Development cycle</option>
                             <option>Software Development</option>
                             <option>Maintenance</option>
                             <option>Process Query</option>
                             <option>Cost and Duration</option>
                             <option>Modal Delivery</option> */}
-                          </select>
+                          {/* </select> */}
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <select className="form-control" id="exampleFormControlSelect2">
+                          {/* <select className="form-control" id="exampleFormControlSelect2">
                             <option>Select Doctors</option>
-                            <option>Dr. Abhinay Singh</option>
+                            <option>Dr. Abhinay Singh</option> */}
                             {/* <option>Development cycle</option>
                             <option>Software Development</option>
                             <option>Maintenance</option>
                             <option>Process Query</option>
                             <option>Cost and Duration</option>
                             <option>Modal Delivery</option> */}
-                          </select>
+                          {/* </select> */}
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <input name="date" id="date" type="text" className="form-control" placeholder="dd/mm/yyyy" />
+                          <input name="date" id="date" type="date" className="form-control" placeholder="dd/mm/yyyy" onChange={handleChange} value={date} />
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <input name="time" id="time" type="text" className="form-control" placeholder="Time" />
+                          <input name="time" id="time" type="time" className="form-control" placeholder="Time" onChange={handleChange} value={time}/>
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <input name="name" id="name" type="text" className="form-control" placeholder="Full Name" />
+                          <input name="name" id="name" type="text" className="form-control" placeholder="Patient Name" onChange={handleChange} value={name}/>
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <input name="phone" id="phone" type="Number" className="form-control" placeholder="Phone Number" />
+                          <input name="phone" id="phone" type="Number" className="form-control" placeholder="Phone Number" onChange={handleChange} value={phone} />
                         </div>
                       </div>
                     </div>
                     <div className="form-group-2 mb-4">
-                      <textarea name="message" id="message" className="form-control" rows={6} placeholder="Your Message" defaultValue={""} />
+                      <textarea name="message" id="message" className="form-control" rows={6} placeholder="Your Message" defaultValue={""} onChange={handleChange} value={message}/>
                     </div>
-                    <Link className="btn btn-main btn-round-full" to="/appointment">Make Appoinment <i className="icofont-simple-right ml-2  " /></Link>
+                    <button className="btn btn-main btn-round-full" name="submit" type="submit" 
+                  defaultValue="Send Messege">Make Appoinment</button>
                   </form>
                 </div>
               </div>
