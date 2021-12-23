@@ -33,9 +33,9 @@ const Login = ({ login, isAuthenticated }) => {
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="section-title text-center">
-                    <h2 class="text-md mb-2">Sign Up</h2>
+                    <h2 class="text-md mb-2">Sign In</h2>
                     <div class="divider mx-auto my-4"></div>
-                    <p class="mb-5">Create Your Account</p>
+                    <p class="mb-5">SignIn to your Account</p>
                 </div>
             </div>
         </div>

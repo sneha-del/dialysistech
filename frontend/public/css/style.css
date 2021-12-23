@@ -303,6 +303,22 @@ a:focus {
   outline: none;
 }
 
+Link{
+  color: #222;
+  text-decoration: none;
+  transition: all .35s ease;
+}
+
+Link:focus, a:hover {
+  color: #e12454;
+  text-decoration: none;
+}
+
+Link:focus {
+  outline: none;
+}
+
+
 .content-title {
   font-size: 40px;
   line-height: 50px;
@@ -1094,6 +1110,13 @@ a:focus {
 }
 
 .tag-option a {
+  border: 1px solid #eff0f3;
+  padding: 6px 12px;
+  color: #6F8BA4;
+  font-size: 14px;
+}
+
+.tag-option Link {
   border: 1px solid #eff0f3;
   padding: 6px 12px;
   color: #6F8BA4;

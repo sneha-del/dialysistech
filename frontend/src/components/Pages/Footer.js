@@ -1,7 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const [data, setData] = useState({
+    email: "",
+  });
+
+  const { email } = data;
+
+  const handleChange = (e) => {
+    setData({ ...data, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch(
+        "https://v1.nocodeapi.com/vikasnarwariya/google_sheets/mawZghuqeJsNDxky?tabId=Sheet3",
+        {
+          method: "post",
+          body: JSON.stringify([[email, new Date().toLocaleString()]]),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+      await response.json();
+      setData({ ...data, email: "" });
+    } catch (err) {
+      console.log(err);
+    }
+  };
   return (
     <footer className="footer section gray-bg">
       <div className="container">
@@ -99,9 +129,9 @@ const Footer = () => {
             </div>
             {/* <div className="col-lg-6">
               <div className="subscribe-form text-lg-right mt-5 mt-lg-0">
-                <form action="#" className="subscribe">
-                  <input type="text" className="form-control" placeholder="Your Email address" />
-                  <Link to="#" className="btn btn-main-2 btn-round-full">Subscribe</Link>
+                <form  id="form" className="subscribe" method="post" onSubmit={handleSubmit} >
+                <input name="email" id="email" type="email" className="form-control" placeholder="Your Email Address" onChange={handleChange} value={email}/>
+                  <button className="btn btn-main-2 btn-round-full">Subscribe</button>
                 </form>
               </div>
             </div> */}
