@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Doctor = () => {
-    return (
-      <div>
+  return (
+    <div>
       <section className="page-title bg-1">
         <div className="overlay" />
         <div className="container">
@@ -11,7 +11,9 @@ const Doctor = () => {
             <div className="col-md-12">
               <div className="block text-center">
                 <span className="text-white">Doctor Details</span>
-                <h1 className="text-capitalize mb-5 text-lg">Dr. Abhinay Singh</h1>
+                <h1 className="text-capitalize mb-5 text-lg">
+                  Dr. Abhinay Singh
+                </h1>
                 {/* <ul class="list-inline breadcumb-nav">
           <li class="list-inline-item"><Link to="index.html" class="text-white">Home</Link></li>
           <li class="list-inline-item"><span class="text-white">/</span></li>
@@ -27,15 +29,31 @@ const Doctor = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="doctor-img-block">
-                <img src="images/team/1.jpg" alt="" className="img-fluid w-100" />
+                <img
+                  src="images/team/1.jpg"
+                  alt=""
+                  className="img-fluid w-100"
+                />
                 <div className="info-block mt-4">
                   <h4 className="mb-0">Dr. Abhinay Singh</h4>
                   <p>Dialysis Technician</p>
                   <ul className="list-inline mt-4 doctor-social-links">
-                    <li className="list-inline-item"><Link to="#"><i className="icofont-facebook" /></Link></li>
-                    <li className="list-inline-item"><Link to="#"><i className="icofont-twitter" /></Link></li>
+                    <li className="list-inline-item">
+                      <Link to="#">
+                        <i className="icofont-facebook" />
+                      </Link>
+                    </li>
+                    <li className="list-inline-item">
+                      <Link to="#">
+                        <i className="icofont-twitter" />
+                      </Link>
+                    </li>
                     {/* <li className="list-inline-item"><Link to="#"><i className="icofont-skype" /></Link></li> */}
-                    <li className="list-inline-item"><Link to="#"><i className="icofont-linkedin" /></Link></li>
+                    <li className="list-inline-item">
+                      <Link to="#">
+                        <i className="icofont-linkedin" />
+                      </Link>
+                    </li>
                     {/* <li className="list-inline-item"><Link to="#"><i className="icofont-pinterest" /></Link></li> */}
                   </ul>
                 </div>
@@ -45,9 +63,24 @@ const Doctor = () => {
               <div className="doctor-details mt-4 mt-lg-0">
                 <h2 className="text-md">Introducing to myself</h2>
                 <div className="divider my-4" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam tempore cumque voluptate beatae quis inventore sapiente nemo, a eligendi nostrum expedita veritatis neque incidunt ipsa doloribus provident ex, at ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, perferendis officiis esse quae, nobis eius explicabo quidem? Officia accusamus repudiandae ea esse non reiciendis accusantium voluptates, facilis enim, corrupti eligendi?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo recusandae veritatis minus optio quod obcaecati laborum temporibus, deleniti vero perferendis molestias, ducimus facilis, sunt minima. Tempora, amet quasi asperiores voluptas?</p>
-                <Link to="appoinment.html" className="btn btn-main-2 btn-round-full mt-3">Make an Appoinment<i className="icofont-simple-right ml-2  " /></Link>
+                <p>
+                  I am Dr. Abhinay Singh working as a Dialysis expert in Global
+                  Hospital, Gwalior, Madhya pradesh. I have treated over 100+
+                  patients at Global Hospital. To get connected to me or for any
+                  help regarding the same, you can book an appointment through
+                  this website and in the case of Emergency, feel free to
+                  contact me.
+                </p>
+                <Link to="/appointment" className="btn btn-main btn-round-full">
+                  Make a appoinment
+                </Link>
+                {/* <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+                  recusandae veritatis minus optio quod obcaecati laborum
+                  temporibus, deleniti vero perferendis molestias, ducimus
+                  facilis, sunt minima. Tempora, amet quasi asperiores voluptas?
+                </p> */}
+                {/* <Link to="appoinment.html" className="btn btn-main-2 btn-round-full mt-3">Make an Appoinment<i className="icofont-simple-right ml-2  " /></Link> */}
               </div>
             </div>
           </div>
@@ -67,8 +100,15 @@ const Doctor = () => {
             <div className="col-lg-6">
               <div className="edu-block mb-5">
                 <span className="h6 text-muted">Year(2005-2007) </span>
-                <h4 className="mb-3 title-color">MBBS, M.D at University of Wyoming</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque harum, mollitia, soluta maxime porro veritatis fuga autem impedit corrupti aperiam sint, architecto, error nesciunt temporibus! Vel quod, dolor aliquam!</p>
+                <h4 className="mb-3 title-color">
+                  MBBS, M.D at University of Wyoming
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                  doloremque harum, mollitia, soluta maxime porro veritatis fuga
+                  autem impedit corrupti aperiam sint, architecto, error
+                  nesciunt temporibus! Vel quod, dolor aliquam!
+                </p>
               </div>
               {/* <div className="edu-block">
                 <span className="h6 text-muted">Year(2007-2009) </span>
@@ -79,8 +119,15 @@ const Doctor = () => {
             <div className="col-lg-6">
               <div className="edu-block mb-5">
                 <span className="h6 text-muted">Year(2009-2010) </span>
-                <h4 className="mb-3 title-color">MBBS, M.D at University of Japan</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque harum, mollitia, soluta maxime porro veritatis fuga autem impedit corrupti aperiam sint, architecto, error nesciunt temporibus! Vel quod, dolor aliquam!</p>
+                <h4 className="mb-3 title-color">
+                  MBBS, M.D at University of Japan
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                  doloremque harum, mollitia, soluta maxime porro veritatis fuga
+                  autem impedit corrupti aperiam sint, architecto, error
+                  nesciunt temporibus! Vel quod, dolor aliquam!
+                </p>
               </div>
               {/* <div className="edu-block">
                 <span className="h6 text-muted">Year(2010-2011) </span>
@@ -139,7 +186,7 @@ const Doctor = () => {
         </div>
       </section> */}
     </div>
-    )
-}
+  );
+};
 
-export default Doctor
+export default Doctor;

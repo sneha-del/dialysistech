@@ -1,89 +1,94 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 
 //import { Link } from "react-router-dom";
 
 const Contact = () => {
-
   const [data, setData] = useState({
     name: "",
     email: "",
     subject: "",
     phone: "",
     message: "",
-  })
+  });
 
-  const { name, email, subject, phone, message } = data; 
+  const { name, email, subject, phone, message } = data;
 
   const handleChange = (e) => {
     setData({ ...data, [e.target.name]: e.target.value });
   };
 
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      const response = await fetch( "https://v1.nocodeapi.com/vikasnarwariya/google_sheets/mawZghuqeJsNDxky?tabId=Sheet1",
-      {
-                          method: "post",
-                           body: JSON.stringify([[ name, email, subject, phone, message, new Date().toLocaleString()]]),
-                           headers: {
-                               "Content-Type": "application/json"
-                           }
-                       }
-        
+      const response = await fetch(
+        "https://v1.nocodeapi.com/vikasnarwariya/google_sheets/mawZghuqeJsNDxky?tabId=Sheet1",
+        {
+          method: "post",
+          body: JSON.stringify([
+            [name, email, subject, phone, message, new Date().toLocaleString()],
+          ]),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
       );
       await response.json();
-      setData({ ...data, name: "", email: "", subject: "", phone: "", message: ""});
+      setData({
+        ...data,
+        name: "",
+        email: "",
+        subject: "",
+        phone: "",
+        message: "",
+      });
     } catch (err) {
-      console.log(err)
+      console.log(err);
     }
-  }
+  };
 
+  //   const [isSending, updateIsSending] = useState(false)
+  // 	const [formData, setFormData] = useState({});
+  // 	const [message, setMessage] = useState("");
 
-//   const [isSending, updateIsSending] = useState(false)
-// 	const [formData, setFormData] = useState({});
-// 	const [message, setMessage] = useState("");
+  //   const handleInput = e => {
+  //     const copyFormData = { ...formData };
+  //     copyFormData[e.target.name] = e.target.value;
+  //     setFormData(copyFormData);
+  // };
+  // async function handleSubmit(event) {
+  //   updateIsSending(true)
 
-//   const handleInput = e => {
-//     const copyFormData = { ...formData };
-//     copyFormData[e.target.name] = e.target.value;
-//     setFormData(copyFormData);
-// };
-// async function handleSubmit(event) {
-//   updateIsSending(true)
+  //   // stop form from submitting
+  //   event.preventDefault()
 
-//   // stop form from submitting
-//   event.preventDefault()
+  //   const {name, email, subject, phone, message} = formData;
 
-  
-//   const {name, email, subject, phone, message} = formData;
+  //   try {
+  //           const response = await fetch(
+  //               "https://v1.nocodeapi.com/vikasnarwariya/google_sheets/mawZghuqeJsNDxky?tabId=Sheet1",
+  //               {
+  //                   method: "post",
+  //                   body: JSON.stringify([[ name, email, subject, phone, message]]),
+  //                   headers: {
+  //                       "Content-Type": "application/json"
+  //                   }
+  //               }
+  //           );
+  //     const json = await response.json();
+  //           console.log("Success:", JSON.stringify(json));
+  //           setMessage("Success");
+  //     const form = document.querySelector("form#contact-form")
+  //     form.reset();
+  //     updateIsSending(null)
 
-//   try {
-//           const response = await fetch(
-//               "https://v1.nocodeapi.com/vikasnarwariya/google_sheets/mawZghuqeJsNDxky?tabId=Sheet1",
-//               {
-//                   method: "post",
-//                   body: JSON.stringify([[ name, email, subject, phone, message]]),
-//                   headers: {
-//                       "Content-Type": "application/json"
-//                   }
-//               }
-//           );
-//     const json = await response.json();
-//           console.log("Success:", JSON.stringify(json));
-//           setMessage("Success");
-//     const form = document.querySelector("form#contact-form")
-//     form.reset();
-//     updateIsSending(null)
-
-//       } catch (error) {
-//           console.error("Error:", error);
-//           setMessage("Error");
-//       }
-//   };
-    return (
-      <div>
+  //       } catch (error) {
+  //           console.error("Error:", error);
+  //           setMessage("Error");
+  //       }
+  //   };
+  return (
+    <div>
       <section className="page-title bg-1">
         <div className="overlay" />
         <div className="container">
@@ -137,17 +142,29 @@ const Contact = () => {
               <div className="section-title text-center">
                 <h2 className="text-md mb-2">Contact us</h2>
                 <div className="divider mx-auto my-4" />
-                <p className="mb-5">Are easy to find, so a patients can quickly get in touch should they need it.</p>
+                <p className="mb-5">
+                  Are easy to find, so a patients can quickly get in touch
+                  because they need it.
+                </p>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12">
-              <form id="contact-form" className="contact__form " method="post" onSubmit={handleSubmit}>
+              <form
+                id="contact-form"
+                className="contact__form "
+                method="post"
+                onSubmit={handleSubmit}
+              >
                 {/* form message */}
                 <div className="row">
                   <div className="col-12">
-                    <div className="alert alert-success contact__msg" style={{display: 'none'}} role="alert">
+                    <div
+                      className="alert alert-success contact__msg"
+                      style={{ display: "none" }}
+                      role="alert"
+                    >
                       Your message was sent successfully.
                     </div>
                   </div>
@@ -155,32 +172,77 @@ const Contact = () => {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="form-group">
-                      <input name="name" id="name" type="text" className="form-control" placeholder="Your Full Name" onChange={handleChange} value={name}/>
+                      <input
+                        name="name"
+                        id="name"
+                        type="text"
+                        className="form-control"
+                        placeholder="Your Full Name"
+                        onChange={handleChange}
+                        value={name}
+                      />
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-group">
-                      <input name="email" id="email" type="email" className="form-control" placeholder="Your Email Address" onChange={handleChange} value={email}/>
+                      <input
+                        name="email"
+                        id="email"
+                        type="email"
+                        className="form-control"
+                        placeholder="Your Email Address"
+                        onChange={handleChange}
+                        value={email}
+                      />
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-group">
-                      <input name="subject" id="subject" type="text" className="form-control" placeholder="Your Query Topic" onChange={handleChange} value={subject} />
+                      <input
+                        name="subject"
+                        id="subject"
+                        type="text"
+                        className="form-control"
+                        placeholder="Your Query Topic"
+                        onChange={handleChange}
+                        value={subject}
+                      />
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-group">
-                      <input name="phone" id="phone" type="text" className="form-control" placeholder="Your Phone Number" onChange={handleChange} value={phone} />
+                      <input
+                        name="phone"
+                        id="phone"
+                        type="text"
+                        className="form-control"
+                        placeholder="Your Phone Number"
+                        onChange={handleChange}
+                        value={phone}
+                      />
                     </div>
                   </div>
                 </div>
                 <div className="form-group-2 mb-4">
-                  <textarea name="message" id="message" className="form-control" rows={8} placeholder="Your Message" defaultValue={""} onChange={handleChange} value={message}/>
+                  <textarea
+                    name="message"
+                    id="message"
+                    className="form-control"
+                    rows={8}
+                    placeholder="Your Message"
+                    defaultValue={""}
+                    onChange={handleChange}
+                    value={message}
+                  />
                 </div>
                 <div className="text-center">
-                  <button className="btn btn-main btn-round-full" name="submit" type="submit" 
-                  defaultValue="Send Messege">
-                  Submit Button
+                  <button
+                    className="btn btn-main btn-round-full"
+                    name="submit"
+                    type="submit"
+                    defaultValue="Send Messege"
+                  >
+                    Submit Button
                   </button>
                 </div>
               </form>
@@ -192,7 +254,7 @@ const Contact = () => {
         <div id="map" />
       </div> */}
     </div>
-    )
-}
+  );
+};
 
-export default Contact
+export default Contact;
