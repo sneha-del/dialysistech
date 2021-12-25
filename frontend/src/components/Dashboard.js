@@ -1,12 +1,25 @@
 import React from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Dashboard = ({ auth: { user } }) => {
 	return (
+<>
+		<section className="section cta-page">
+        <div className="container" style={{height:"14em"}}>
+          <div className="row">
+            <div className="col-lg-4">
+             
+            </div>
+          </div>
+        </div>
+      </section>
 		<div style={{ marginTop: "5rem", textAlign: "center" }}>
-			<h1>Welcome, {user && user.name}</h1>
+
+			<h1>Welcome to Global Dialysis, {user && user.name}</h1>
 		</div>
+		</>
 	);
 };
 Dashboard.propTypes = {

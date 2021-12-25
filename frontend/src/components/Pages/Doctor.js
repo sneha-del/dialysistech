@@ -30,7 +30,7 @@ const Doctor = () => {
             <div className="col-lg-4 col-md-6">
               <div className="doctor-img-block">
                 <img
-                  src="images/team/1.jpg"
+                  src="images/team/doct.jpg"
                   alt=""
                   className="img-fluid w-100"
                 />
@@ -39,20 +39,20 @@ const Doctor = () => {
                   <p>Dialysis Technician</p>
                   <ul className="list-inline mt-4 doctor-social-links">
                     <li className="list-inline-item">
-                      <Link to="#">
+                      <a href ="https://www.facebook.com/abhinaysingh.rajput.3" target="_blank">
                         <i className="icofont-facebook" />
-                      </Link>
+                      </a>
                     </li>
                     <li className="list-inline-item">
-                      <Link to="#">
-                        <i className="icofont-twitter" />
-                      </Link>
+                      <a href ="#">
+                        <i className="icofont-envelope" />
+                      </a>
                     </li>
                     {/* <li className="list-inline-item"><Link to="#"><i className="icofont-skype" /></Link></li> */}
                     <li className="list-inline-item">
-                      <Link to="#">
+                      <a href ="https://www.linkedin.com/in/abhinay-singh-51a13a229/" target="_blank">
                         <i className="icofont-linkedin" />
-                      </Link>
+                      </a>
                     </li>
                     {/* <li className="list-inline-item"><Link to="#"><i className="icofont-pinterest" /></Link></li> */}
                   </ul>
@@ -99,15 +99,14 @@ const Doctor = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="edu-block mb-5">
-                <span className="h6 text-muted">Year(2005-2007) </span>
+                <span className="h6 text-muted">Year(2010-2013) </span>
                 <h4 className="mb-3 title-color">
-                  MBBS, M.D at University of Wyoming
+                  B.SC, GRMC Medical College
                 </h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-                  doloremque harum, mollitia, soluta maxime porro veritatis fuga
-                  autem impedit corrupti aperiam sint, architecto, error
-                  nesciunt temporibus! Vel quod, dolor aliquam!
+                Gajra Raja Medical College (or GRMC) is the first medical 
+                college in Madhya Pradesh, India established in 1946. It was 
+                inaugurated on 1 August 1946 by Jiwaji Rao Scindia. 
                 </p>
               </div>
               {/* <div className="edu-block">
@@ -116,7 +115,7 @@ const Doctor = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque harum, mollitia, soluta maxime porro veritatis fuga autem impedit corrupti aperiam sint, architecto, error nesciunt temporibus! Vel quod, dolor aliquam!</p>
               </div> */}
             </div>
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="edu-block mb-5">
                 <span className="h6 text-muted">Year(2009-2010) </span>
                 <h4 className="mb-3 title-color">
@@ -129,12 +128,12 @@ const Doctor = () => {
                   nesciunt temporibus! Vel quod, dolor aliquam!
                 </p>
               </div>
-              {/* <div className="edu-block">
+              <div className="edu-block">
                 <span className="h6 text-muted">Year(2010-2011) </span>
                 <h4 className="mb-3 title-color">M.D. of Canada Medical College</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque harum, mollitia, soluta maxime porro veritatis fuga autem impedit corrupti aperiam sint, architecto, error nesciunt temporibus! Vel quod, dolor aliquam!</p>
-              </div> */}
-            </div>
+              </div> 
+            </div> */}
           </div>
         </div>
       </section>

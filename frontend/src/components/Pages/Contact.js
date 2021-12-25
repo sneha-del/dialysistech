@@ -122,7 +122,7 @@ const Contact = () => {
               <div className="contact-block mb-4 mb-lg-0">
                 <i className="icofont-support-faq" />
                 <h5>Email Us</h5>
-                globaldialysis@gmail.com
+                globaldialysis12@gmail.com
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">

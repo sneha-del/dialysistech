@@ -67,7 +67,7 @@ const Homepage = () => {
                   <h1 className="mb-3 mt-3">
                     Your most trusted dialysis partner
                   </h1>
-                  <p className="mb-4 pr-5">
+                  <p className="mb-4 pr-5" style={{color: "white"}}>
                     Serving all people through exemplary health care, education,
                     research, and community outreach.
                   </p>

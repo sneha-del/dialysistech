@@ -49,19 +49,19 @@ const Footer = () => {
               </p>
               <ul className="list-inline footer-socials mt-4">
                 <li className="list-inline-item">
-                  <Link to="https://www.facebook.com/themefisher">
+                  <a href ="https://www.facebook.com/Global-Dialysis-104372615452416" target="_blank">
                     <i className="icofont-facebook" />
-                  </Link>
+                  </a>
                 </li>
                 <li className="list-inline-item">
-                  <Link to="https://twitter.com/themefisher">
-                    <i className="icofont-twitter" />
-                  </Link>
+                  <a href ="mailto:globaldialysis12@gmail.com?subject = feedback & body = Message" target="_blank">
+                    <i className="icofont-envelope" />
+                  </a>
                 </li>
                 <li className="list-inline-item">
-                  <Link to="https://www.pinterest.com/themefisher/">
+                  <a href="https://www.linkedin.com/company/global-dialysis12" target="_blank">
                     <i className="icofont-linkedin" />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -102,7 +102,7 @@ const Footer = () => {
                   <span className="h6 mb-0">Support Available for 24/7</span>
                 </div>
                 <h4 className="mt-2">
-                  <Link to="tel:+23-345-67890">globaldialysis@gmail.com</Link>
+                  <Link to="tel:+23-345-67890">globaldialysis12@gmail.com</Link>
                 </h4>
               </div>
               <div className="footer-contact-block">
@@ -122,7 +122,7 @@ const Footer = () => {
             <div className="col-lg-6">
               <div className="copyright">
                 © Copyright Reserved to GlobalDialysis by{" "}
-                <Link to="https://themefisher.com/" target="_blank">
+                <Link to="/">
                   sv-devops
                 </Link>
               </div>
