@@ -39,18 +39,18 @@ const Doctor = () => {
                   <p>Dialysis Technician</p>
                   <ul className="list-inline mt-4 doctor-social-links">
                     <li className="list-inline-item">
-                      <a href ="https://www.facebook.com/abhinaysingh.rajput.3" target="_blank">
+                      <a href ="https://www.facebook.com/abhinaysingh.rajput.3" target="_blank" rel="noreferrer noopener">
                         <i className="icofont-facebook" />
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a href ="#">
+                      <a href ="mailto:globaldialysis12@gmail.com?subject = feedback & body = Message" target="_blank" rel="noreferrer noopener">
                         <i className="icofont-envelope" />
                       </a>
                     </li>
                     {/* <li className="list-inline-item"><Link to="#"><i className="icofont-skype" /></Link></li> */}
                     <li className="list-inline-item">
-                      <a href ="https://www.linkedin.com/in/abhinay-singh-51a13a229/" target="_blank">
+                      <a href ="https://www.linkedin.com/in/abhinay-singh-51a13a229/" target="_blank" rel="noreferrer noopener">
                         <i className="icofont-linkedin" />
                       </a>
                     </li>

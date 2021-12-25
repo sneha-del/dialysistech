@@ -1,37 +1,37 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const [data, setData] = useState({
-    email: "",
-  });
+  // const [data, setData] = useState({
+  //   email: "",
+  // });
 
-  const { email } = data;
+  // const { email } = data;
 
-  const handleChange = (e) => {
-    setData({ ...data, [e.target.name]: e.target.value });
-  };
+  // const handleChange = (e) => {
+  //   setData({ ...data, [e.target.name]: e.target.value });
+  // };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
 
-    try {
-      const response = await fetch(
-        "https://v1.nocodeapi.com/vikasnarwariya/google_sheets/mawZghuqeJsNDxky?tabId=Sheet3",
-        {
-          method: "post",
-          body: JSON.stringify([[email, new Date().toLocaleString()]]),
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );
-      await response.json();
-      setData({ ...data, email: "" });
-    } catch (err) {
-      console.log(err);
-    }
-  };
+  //   try {
+  //     const response = await fetch(
+  //       "https://v1.nocodeapi.com/vikasnarwariya/google_sheets/mawZghuqeJsNDxky?tabId=Sheet3",
+  //       {
+  //         method: "post",
+  //         body: JSON.stringify([[email, new Date().toLocaleString()]]),
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //         },
+  //       }
+  //     );
+  //     await response.json();
+  //     setData({ ...data, email: "" });
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // };
   return (
     <footer className="footer section gray-bg">
       <div className="container">
@@ -49,17 +49,17 @@ const Footer = () => {
               </p>
               <ul className="list-inline footer-socials mt-4">
                 <li className="list-inline-item">
-                  <a href ="https://www.facebook.com/Global-Dialysis-104372615452416" target="_blank">
+                  <a href ="https://www.facebook.com/Global-Dialysis-104372615452416" target="_blank" rel="noreferrer noopener">
                     <i className="icofont-facebook" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href ="mailto:globaldialysis12@gmail.com?subject = feedback & body = Message" target="_blank">
+                  <a href ="mailto:globaldialysis12@gmail.com?subject = feedback & body = Message" target="_blank" rel="noreferrer noopener">
                     <i className="icofont-envelope" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://www.linkedin.com/company/global-dialysis12" target="_blank">
+                  <a href="https://www.linkedin.com/company/global-dialysis12" target="_blank" rel="noreferrer noopener">
                     <i className="icofont-linkedin" />
                   </a>
                 </li>
