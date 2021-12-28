@@ -464,7 +464,7 @@ const Homepage = () => {
             <div className="row justify-content-center">
               <div className="col-lg-7">
                 <div className="section-title text-center">
-                  <h2>We served over 1000+ Patients</h2>
+                  <h2>We served over 5000+ Patients</h2>
                   <div className="divider mx-auto my-4" />
                   <p>
                     Lets see what we have done in the past with our valuable

@@ -12,7 +12,7 @@ const Doctor = () => {
               <div className="block text-center">
                 <span className="text-white">Doctor Details</span>
                 <h1 className="text-capitalize mb-5 text-lg">
-                  Dr. Abhinay Singh
+                  Mr. Abhinay Singh
                 </h1>
                 {/* <ul class="list-inline breadcumb-nav">
           <li class="list-inline-item"><Link to="index.html" class="text-white">Home</Link></li>
@@ -35,7 +35,7 @@ const Doctor = () => {
                   className="img-fluid w-100"
                 />
                 <div className="info-block mt-4">
-                  <h4 className="mb-0">Dr. Abhinay Singh</h4>
+                  <h4 className="mb-0">Mr. Abhinay Singh</h4>
                   <p>Dialysis Technician</p>
                   <ul className="list-inline mt-4 doctor-social-links">
                     <li className="list-inline-item">
@@ -44,7 +44,7 @@ const Doctor = () => {
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a href ="mailto:globaldialysis12@gmail.com?subject = feedback & body = Message" target="_blank" rel="noreferrer noopener">
+                      <a href ="mailto:abhinay.singh123@gmail.com?subject = feedback & body = Message" target="_blank" rel="noreferrer noopener">
                         <i className="icofont-envelope" />
                       </a>
                     </li>
@@ -64,9 +64,10 @@ const Doctor = () => {
                 <h2 className="text-md">Introducing to myself</h2>
                 <div className="divider my-4" />
                 <p>
-                  I am Dr. Abhinay Singh working as a Dialysis expert in Global
-                  Hospital, Gwalior, Madhya pradesh. I have treated over 100+
-                  patients at Global Hospital. To get connected to me or for any
+                  I am Abhinay Singh Nephrotechnologist working as a Dialysis expert in Global
+                  Hospital, Gwalior, Madhya pradesh. I have treated over 5000+
+                  patients at Global Hospital with having a experience of 10+ yrs. 
+                  To get connected to me or for any
                   help regarding the same, you can book an appointment through
                   this website and in the case of Emergency, feel free to
                   contact me.
@@ -99,9 +100,9 @@ const Doctor = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="edu-block mb-5">
-                <span className="h6 text-muted">Year(2010-2013) </span>
+                <span className="h6 text-muted">Year(2009-2011) </span>
                 <h4 className="mb-3 title-color">
-                  B.SC, GRMC Medical College
+                  Dialysis Technologist, GRMC Medical College
                 </h4>
                 <p>
                 Gajra Raja Medical College (or GRMC) is the first medical 

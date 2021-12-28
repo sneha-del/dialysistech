@@ -29,7 +29,7 @@ const Services = () => {
               <div className="service-block mb-5">
                 <img src="images/service/service-8.jpg" alt="" className="img-fluid" />
                 <div className="content">
-                  <h4 className="mt-4 mb-2  title-color">Personal Care</h4>
+                  <h4 className="mt-4 mb-2  title-color">Dialysis Care</h4>
                   <p className="mb-4">We take care of our each and every patient in a very well manner.</p>
                 </div>
               </div>
@@ -48,8 +48,8 @@ const Services = () => {
               <div className="service-block mb-5">
                 <img src="images/service/service-6.jpg" alt="" className="img-fluid" />
                 <div className="content">
-                  <h4 className="mt-4 mb-2 title-color">Laboratory Services</h4>
-                  <p className="mb-4">We provides every test which is necessary for kidney.</p>
+                  <h4 className="mt-4 mb-2 title-color">Modern Dialysis Unit</h4>
+                  <p className="mb-4">We provides a best modern dialysis services.</p>
                 </div>
               </div>
             </div>

@@ -523,7 +523,7 @@ Link:focus {
   }
   .banner {
     min-height: 450px;
-    background: #fff !important;
+    background: url("../images/bg/slider-bg-1.jpg") no-repeat;
   }
 }
 
@@ -534,7 +534,7 @@ Link:focus {
   }
   .banner {
     min-height: 450px;
-    background: #fff !important;
+    background: url("../images/bg/slider-bg-1.jpg") no-repeat;
   }
 }
 
@@ -544,13 +544,13 @@ Link:focus {
     line-height: 70px;
   }
   .banner {
-    background: #fff !important;
+    background: url("../images/bg/slider-bg-1.jpg") no-repeat;
   }
 }
 
 @media (max-width: 992px) {
   .banner {
-    background: #fff !important;
+    background: url("../images/bg/slider-bg-1.jpg") no-repeat;
   }
 }
 
@@ -565,7 +565,7 @@ Link:focus {
   align-items: center;
   display: flex;
   justify-content: center;
-  background: #eff0f3;
+  background: url("../images/bg/slider-bg-1.jpg") no-repeat;
 }
 
 .appoinment-content {
