@@ -21,3 +21,6 @@
 </ol>
 
 ### 💻 Screenshots
+<img src="https://github.com/sneha-del/dialysistech/blob/main/dialysishome.png?raw=true" width="800px" height="450" />
+
+<img src="https://github.com/sneha-del/dialysistech/blob/main/dialysisbook.png?raw=true" width="800px" height="450" />
